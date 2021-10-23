@@ -1,0 +1,14 @@
+{
+  "name": "tailwindcss-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.17"
+  }
+}
